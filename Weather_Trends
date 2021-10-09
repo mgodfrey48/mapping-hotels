@@ -1,0 +1,5 @@
+Observations from the weather data analysis:
+
+1. The strongest fit is between latitude and max temperature of cities in the northern hemisphere.
+2. Since the r value is positive when comparing latitude and max temperature of cities in the southern hemisphere, this suggests that as we move closer to the equator (latitude increases) the max temperature will most likely increase.
+3. The weakest fit is between latitude and wind speed of cities in the northern hemisphere.
