@@ -1,4 +1,4 @@
-# Where Should I Live?
+# Where Should I Live? **|||** Where Should I Go? 
 
 I use OpenWeather's API to gather weather and location data, then generate a heatmap of the the data and identify areas in the world that match specific climate/weather criteria. Finally, I use Google's geocoding API to find hotels in those locations and plot them on the heatmap.
 
