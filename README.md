@@ -1,6 +1,17 @@
 # Where Should I Live? **|||** Where Should I Go? 
 
-I use OpenWeather's API to gather weather and location data, then generate a heatmap of the the data and identify areas in the world that match specific climate/weather criteria. Finally, I use Google's geocoding API to find hotels in those locations and plot them on the heatmap.
+I use OpenWeather's API to gather weather and location data, then perform exploratory analysis and generated regressions on various weather variables to identify correlations with the latitude of the cities in the dataset. I narrowed down my list of observations of the data to the following insights:
+1. The strongest correlation is between latitude and max temperature of cities in the northern hemisphere.
+2. Since the r-value is positive when comparing latitude and max temperature of cities in the southern hemisphere, this suggests that as we move closer to the equator (latitude increases) the max temperature will most likely increase.
+3. The weakest correlation is between latitude and wind speed of cities in the northern hemisphere.
+
+After running this analysis, I then generate a heatmap using humidity data and identify areas in the world that match specific climate/weather criteria. 
+
+![image](https://user-images.githubusercontent.com/87830922/161860954-d756f921-145f-4508-a55e-6d40f1fad5cd.png)
+
+Finally, I then use Google's geocoding API to find hotels within 50 miles of the narrowed down locations (if they exist) and plot them on the heatmap.
+
+![image](https://user-images.githubusercontent.com/87830922/161861614-8c793fc1-ea2d-4285-8c78-135a629887da.png)
 
 ## Files:
 * `WeatherPy.ipynb` - Creates a dataset of cities from randomly generated latitudes and longitudes, pulls weather data on those cities from OpenWeatherAPI and stores it in a dataframe, plots and performs linear regressions on each of the weather variables vs latitude
