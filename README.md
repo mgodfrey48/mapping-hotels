@@ -7,12 +7,12 @@ I use OpenWeather's API to gather weather and location data, then perform explor
 
 After running this analysis, I then generate a heatmap using humidity data and identify areas in the world that match specific climate/weather criteria. 
 <p align="center">
-  <img width="400" height="500" src="https://user-images.githubusercontent.com/87830922/161860954-d756f921-145f-4508-a55e-6d40f1fad5cd.png" alt="Heatmap">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/87830922/161860954-d756f921-145f-4508-a55e-6d40f1fad5cd.png" alt="Heatmap">
 </p>
 
 Finally, I then use Google's geocoding API to find hotels within 50 miles of the narrowed down locations (if they exist) and plot them on the heatmap.
 <p align="center">
-  <img width="400" height="500" src="https://user-images.githubusercontent.com/87830922/161861614-8c793fc1-ea2d-4285-8c78-135a629887da.png" alt="Heatmap">
+  <img width="600" height="400" src="https://user-images.githubusercontent.com/87830922/161861614-8c793fc1-ea2d-4285-8c78-135a629887da.png" alt="Heatmap">
 </p>
 
 ## Files:
