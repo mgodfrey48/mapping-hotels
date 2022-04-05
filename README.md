@@ -1,6 +1,6 @@
 # Where Should I Live? **|||** Where Should I Go? 
 
-I use OpenWeather's API to gather weather and location data, then perform exploratory analysis and generated regressions on various weather variables to identify correlations with the latitude of the cities in the dataset. I narrowed down my list of observations of the data to the following insights:
+I use OpenWeather's API to gather weather and location data, then perform exploratory analysis and generate regressions on various weather variables to identify correlations with the latitude of the cities in the dataset. I narrowed down my list of observations of the data to the following insights:
 1. The strongest correlation is between latitude and max temperature of cities in the northern hemisphere.
 2. Since the r-value is positive when comparing latitude and max temperature of cities in the southern hemisphere, this suggests that as we move closer to the equator (latitude increases) the max temperature will most likely increase.
 3. The weakest correlation is between latitude and wind speed of cities in the northern hemisphere.
